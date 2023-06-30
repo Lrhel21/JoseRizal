@@ -1,0 +1,261 @@
+@font-face {
+    font-family: Caprasimo;
+    src: url(font/Caprasimo-Regular.ttf);
+}
+@font-face {
+    font-family: DancingScript;
+    src: url(font/DancingScript-Variablefont_wght.ttf);
+}
+@font-face {
+    font-family: Lobster;
+    src: url(font/Lobster-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*navigation*/
+nav{
+    position: fixed;
+    width: 100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ padding: 1vw,8vw;
+ box-shadow: 2px 2px 10px rgba(0, 0, 0,0.15);
+background-color: rgba(247, 244, 236, 0.952);
+}
+
+nav img{
+    width: 100px;
+cursor: pointer;
+border-radius: 50px;
+z-index: 999;
+}
+nav h1{
+    font-size: 30px;
+    font-family:Caprasimo;
+    margin-top: 5px;
+    color: rgb(250, 29, 29);
+}
+.navigation ul{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+margin-top: 5px;
+font-family: Lobster;
+font-size: 20px;
+}
+nav .navigation ul li{
+    list-style: none;
+    margin-right: 20px;
+    text-decoration: none;
+}
+nav .navigation ul li a{
+text-decoration: none;
+color: rgb(27, 4, 238);
+transition: 0.3s ease;
+}
+nav .navigation ul li a:hover{
+    color: rgb(238, 144, 4);
+    background-color: beige;
+    border-radius: 20px;
+    padding: 20px;
+    }
+
+.txt1{
+    color: rgb(255, 0, 0);
+
+}
+.txt2{
+    color: rgb(43, 8, 240);
+
+}
+/*home*/
+.Home{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),
+    url("image/1.webp");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+.Home h2{
+ font-size: 45px;
+ color: rgb(247, 243, 240);
+ font-family: Lobster;
+}
+
+.Obj{
+    font-size: 35px;
+    color: rgb(224, 141, 45);
+    display: flex;
+    font-family: DancingScript;
+   }
+   .Obj li{
+margin: 20px;
+   }
+.Home h3{
+    font-family: Caprasimo;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 13px 35px;
+   border-radius: 20px;
+   color: rgb(81, 15, 235);
+   margin-top: 10px;
+   background-color: rgb(168, 243, 243);
+   margin: 20px;
+   }
+   .PopL{
+    font-size: 25px;
+    display: none;
+    font-family: Caprasimo;
+    background-color: rgba(0,0,0,0.5);
+    list-style: none;
+
+   }
+   .PopL li{
+margin: 20px;
+   }
+   .PopL li a{
+    text-decoration: none;
+    transition: 0.3s ease;
+    color: rgb(71, 162, 241);
+       }
+.PopL li a:hover{
+    color: rgb(238, 144, 4);
+    background-color: beige;
+    border-radius: 20px;
+    padding: 20px;
+ }
+    
+
+/*rizal law*/
+.rlaw {
+    padding: 5vw 8vw 5vw 8vw;
+    background-color: beige;
+    text-align: center;
+
+ }
+.R-base h1{
+ font-size: 40px;
+ font-family: Caprasimo;
+
+}
+.txt3{
+    color: rgb(82, 231, 174);
+
+}
+.txt4{
+    color: rgb(194, 8, 240);
+
+}
+.RL-box img{
+width: 250px;
+height: 250px;
+cursor: pointer;
+}
+.RL-box {
+justify-content: center;
+font-family: Lobster;
+font-size: 20px;
+color: rgb(109, 27, 240);
+padding: 13px 0px 7px 0;
+background-color: rgba(250, 200, 200, 0.5);
+
+}
+/*about*/
+.About{
+    padding: 3vw 6vw 8vw 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(189, 245, 226);
+    font-size: 20px;
+}
+.abt-box{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(255, 253, 250);
+}
+.Abtus{
+    text-align: justify;
+    font-family: Caprasimo;
+    background-color: rgb(208, 236, 129);
+}
+.team{
+    text-align: justify;
+    font-family: Lobster;
+    background-color: rgb(196, 245, 164);
+}
+.team li{
+list-style: none;
+}
+.mission{
+    text-align: justify;
+    font-family: DancingScript;
+    background-color: rgb(127, 197, 255);
+}
+.book{
+    text-align: justify;
+    font-family: Lobster;
+    background-color: rgb(146, 127, 255);
+}
+    /*CONTACT*/
+.Contact {
+    background-color: rgb(36, 36, 36);
+    padding: 0,30px,0,30px;
+}
+.cnt li a img{
+    width: 50px;
+    height: 50px;
+}
+.cnt li a {
+ margin-right: 30px;
+}
+.cnt {
+display: flex;
+justify-content: center;
+margin-top: 5px;
+}
+.cnt h2{
+    font-size: 30px;
+    margin-top: 5px;
+    font-family:Lobster;
+    color: azure;
+    margin-right: 10px;
+    }
+.name h2{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(243, 141, 46);
+    font-family: Lobster;
+}
+.add h2{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(0, 238, 255);
+    font-family: DancingScript;
+}
+.add p{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(197, 245, 25);
+    font-family: DancingScript;
+}
+/*copyright*/
+.cpr{
+    text-align: center;
+    font-family: Caprasimo;
+}

@@ -1,0 +1,396 @@
+@font-face {
+    font-family: Caprasimo;
+    src: url(font/Caprasimo-Regular.ttf);
+}
+@font-face {
+    font-family: DancingScript;
+    src: url(font/DancingScript-Variablefont_wght.ttf);
+}
+@font-face {
+    font-family: Lobster;
+    src: url(font/Lobster-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*navigation*/
+.topbar{
+    position: fixed;
+    width: 100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ padding: 1vw,8vw;
+ box-shadow: 2px 2px 10px rgba(0, 0, 0,0.15);
+background-color: rgba(238, 180, 209, 0.952);
+}
+nav h1{
+    font-size: 30px;
+    font-family:Caprasimo;
+    margin-top: 5px;
+    color: rgb(5, 2, 31);
+}
+.navigation ul{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+margin-top: 5px;
+font-family: Lobster;
+font-size: 20px;
+}
+.navigation ul li{
+    list-style: none;
+    margin-right: 25px;
+    text-decoration: none;
+}
+nav .navigation ul li a{
+text-decoration: none;
+color: rgb(5, 88, 155);
+transition: 0.3s ease;
+}
+nav .navigation ul li a:hover{
+    color: rgb(238, 144, 4);
+    background-color: beige;
+    border-radius: 20px;
+    padding: 10px;
+    }
+ .Drpdl{
+     justify-content: space-between;
+     flex-direction: row;
+     padding: 100vw,8vw;
+     box-shadow: 2px 2px 10px rgba(0, 0, 0,0.15);
+    background-color: rgba(208, 224, 235, 0.952);
+    display: none;
+      
+    }
+   .PopL{
+    font-size: 15px;
+    font-family: Caprasimo;
+    background-color: rgba(0,0,0,0.5);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    margin-top: 40PX;
+    width: 100%;
+   }
+   .PopL li{
+margin: 20px;
+   }
+   .PopL li a{
+    text-decoration: none;
+    transition: 0.3s ease;
+    color: rgb(153, 241, 71);
+       }
+.PopL li a:hover{
+    color: rgb(238, 144, 4);
+    background-color: beige;
+    border-radius: 20px;
+    padding: 20px;
+ }
+    
+/*Biography*/
+.BP {
+    padding: 5vw 8vw 5vw 8vw;
+    background-color: beige;
+    text-align: center;
+
+ }
+
+ .Bp-box {
+    padding: 30px;
+    justify-content: center;
+    font-family: Lobster;
+    color: rgb(109, 27, 240);
+    padding: 13px 0px 7px 0;
+    background-color: rgba(250, 200, 200, 0.5);
+    
+
+    }
+    .BP h2{
+        font-size: 40px;
+        color: rgb(8, 1, 44);
+        text-align: center;
+    
+     }
+     .Bp-b h3{
+        padding: 10px;
+        font-family: DancingScript;
+        font-size: 30px;
+        padding: 13px 0px 7px 0;
+        color: black;
+        }
+          .Bp-b h4{
+            padding: 5px;
+            font-family: Caprasimo;
+            font-size: 20px;
+            padding: 13px 0px 7px 0;
+            color: rgb(248, 145, 85);
+     }
+.Bp-b h4{
+padding: 5px;
+font-family: Caprasimo;
+font-size: 20px;
+padding: 13px 0px 7px 0;
+ color: rgb(248, 145, 85);
+ }
+ .Bp-b p{
+    padding: 5px;
+    font-family: Lobster;
+    font-size: 20px;
+    padding: 13px 0px 7px 0;
+     color: rgb(8, 4, 1);
+     }
+/*Rizal family*/
+
+     .RF {
+        padding: 5vw 8vw 5vw 8vw;
+        background-color: rgb(187, 236, 243);
+        text-align: center;
+
+    
+     }
+     .RF h2{
+        font-size: 40px;
+        color: rgb(8, 1, 44);
+        text-align: center;
+        font-family: DancingScript;
+        margin-bottom: 20px;
+    
+     }
+   
+    .RF-b p{
+       font-size: 20px;
+       color: rgb(8, 1, 44);
+       text-align: center;
+       font-family: Caprasimo;
+       margin-bottom: 20px;
+   
+    }
+    .Fname h4{
+        font-size: 20px;
+        color: rgba(27, 4, 145, );
+        text-align: center;
+        font-family: Caprasimo;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    
+     }
+     .Fname p{
+        font-size: 20px;
+        color: rgba(8, 0, 12,);
+        text-align: center;
+        font-family: Lobster;
+        margin-bottom: 20px;
+    
+     }
+     .Fname img{
+        margin-top: 5px;
+    
+     }
+     .Fname li{
+ list-style: none;
+    
+     }
+     .EC {
+      padding: 5vw 8vw 5vw 8vw;
+      background-color: rgb(208, 193, 250);
+      text-align: center;
+  
+   }
+   .EC-b p{
+      font-size: 20px;
+      color: rgb(10, 10, 10);
+      text-align: center;
+      font-family: Caprasimo;
+      margin-bottom: 20px;
+  
+   }
+   .EC-b h4{
+      font-size: 20px;
+      color: rgb(3, 64, 114);
+      text-align: center;
+      font-family: Caprasimo;
+      margin-bottom: 20px;
+  
+   }
+   .EC h2{
+      font-size: 30px;
+      color: rgb(8, 23, 36);
+      text-align: center;
+      font-family: Lobster;
+  
+   }
+   .EC h3{
+      font-size: 25px;
+      color: rgb(20, 0, 19);
+      text-align: center;
+      font-family: Lobster;
+      margin-bottom: 20px;
+  
+   }
+   .Educ {
+      padding: 3vw 8vw 5vw 8vw;
+      background-color: rgb(213, 218, 172);
+      text-align: center;
+  
+   }
+   .Educ h2{
+      font-size: 30px;
+      color: rgb(8, 23, 36);
+      text-align: center;
+      font-family: DancingScript;
+      margin-bottom: 10px;
+  
+   }
+   .Educ h4{
+      margin-top: 10px;
+      font-size: 22px;
+      color: rgb(8, 23, 36);
+      text-align: center;
+      font-family: DancingScript;
+      margin-bottom: 10px;
+  
+   }
+   .Educ p{
+      margin-top: 10px;
+      font-size: 20px;
+      color: rgb(43, 43, 44);
+      text-align: center;
+      font-family: fantasy;
+      margin-bottom: 10px;
+  
+   }
+   .Phil {
+      padding: 3vw 8vw 5vw 8vw;
+      background-color: rgb(98, 98, 100);
+      text-align: center;
+  
+   }
+   .Phil h2{
+      font-size: 30px;
+      color: rgb(36, 8, 35);
+      text-align: center;
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-bottom: 10px;
+  
+   }
+   .Phil-b p{
+      margin-top: 10px;
+      font-size: 20px;
+      color: rgb(6, 11, 14);
+      text-align: center;
+      font-family:   Lobster;
+      margin-bottom: 10px;
+  
+   }
+   .Phil-b h4{
+      margin-top: 10px;
+      font-size: 26px;
+      color: rgb(6, 11, 14);
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-bottom: 10px;
+  
+   }
+   .DC {
+      padding: 3vw 8vw 5vw 8vw;
+      background-color: rgb(194, 199, 201);
+      text-align: justify;
+  
+   }
+   .DC h2{
+      font-size: 30px;
+      color: rgb(36, 8, 35);
+      text-align: center;
+      font-family:DancingScript;
+      margin-bottom: 10px;
+  
+   }
+   .DC-b h4{
+      margin-top: 10px;
+      font-size: 20px;
+      color: rgb(6, 11, 14);
+      text-align: justify;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-bottom: 10px;
+  
+   }
+   .DC-b p{
+      margin-top: 10px;
+      font-size: 20px;
+      color: rgb(1, 31, 49);
+      text-align: justify;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin-bottom: 10px;
+  
+   }
+   .Travel {
+      padding: 3vw 8vw 5vw 8vw;
+      background-color: rgb(86, 100, 105);
+      text-align: center;
+  
+   }
+   .Travel h2{
+      font-size: 30px;
+      color: rgb(46, 4, 15);
+      text-align: center;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin-bottom: 10px;
+  
+   }
+   .Travel-b h4{
+      margin-top: 10px;
+      font-size: 20px;
+      color: rgb(31, 25, 32);
+      text-align: justify;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-bottom: 10px;
+  
+   }
+
+   .Travel-b p{
+      margin-top: 10px;
+      font-size: 20px;
+      color: rgb(2, 15, 22);
+      text-align: justify;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin-bottom: 10px;
+  
+   }
+   .Ll {
+      padding: 3vw 8vw 5vw 8vw;
+      background-color: rgb(252, 198, 245);
+      text-align: center;
+  
+   }
+   .Ll h2{
+      font-size: 30px;
+      color: rgb(46, 4, 15);
+      text-align: center;
+      font-family:Lobster;
+      margin-bottom: 10px;
+  
+   }
+   .Ll-b h4{
+      margin-top: 10px;
+      font-size: 25px;
+      color: rgb(31, 25, 32);
+      text-align: justify;
+      font-family: Caprasimo;
+      margin-bottom: 10px;
+  
+   }
+   .Ll-b p{
+      margin-top: 10px;
+      font-size: 20px;
+      color: rgb(78, 33, 2);
+      text-align: justify;
+      font-family: DancingScript;
+      margin-bottom: 10px;
+  
+   }
